@@ -1,0 +1,4 @@
+Gibberish
+
+Perform input validation and filter out all non alphanumerics from the gibberish.txt file
+echo "filename" | tr -cd '[:alnum:]._-'
