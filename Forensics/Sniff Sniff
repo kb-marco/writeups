@@ -1,0 +1,8 @@
+Open file in wireshark
+
+Top left, file, export object, FTP-DATA
+
+Save all to a folder
+
+Captured data from plaintext FTP transmission will be stored in folder, including the flag
+flag{look-at-this-g00d-b01-w00f}

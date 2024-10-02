@@ -1,0 +1,34 @@
+A simple SQL Injection attack
+
+## Solution
+Login: ' or '1'='1
+Password: ' or '1'='1
+
+This is an example of an SQL Injection attack. Here's a breakdown of what's happening and how it works:
+
+Scenario:
+When you log into a website or application, typically the login system checks your credentials (username and password) by querying a database. A simple query might look like this:
+
+SELECT * FROM users WHERE username = 'user_input' AND password = 'pass_input';
+
+In this case:
+
+user_input is the value entered in the login field.
+pass_input is the value entered in the password field.
+For a valid login, both the username and password must match a row in the database.
+
+
+
+Now, let's look at the injection inputs:
+
+Login: ' or '1'='1
+Password: ' or '1'='1
+When these inputs are substituted into the SQL query, the query looks something like this:
+
+SELECT * FROM users WHERE username = '' OR '1'='1' AND password = '' OR '1'='1';
+
+Since both conditions evaluate as true, the query now looks like:
+
+SELECT * FROM users WHERE TRUE AND TRUE;
+
+This query effectively bypasses the actual need for valid credentials because it evaluates to true and returns any user in the database (likely the first one).

@@ -1,0 +1,5 @@
+Meow
+
+sudo apt install -y netcat
+nc 0.cloud.chals.io 26154
+Type ‘meow’ to get flag

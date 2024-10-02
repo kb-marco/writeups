@@ -1,0 +1,5 @@
+Foremost analyzes image for embedded images, outputs to a folder ‘output’ in the same directory as the image
+
+‘Output’ folder will contain the original image, and any embedded images, along with an audit.txt file that includes information on any embedded images within the file, with its offset in the original file
+
+Flag{agent_report_to_meetup_point_delta_echo}

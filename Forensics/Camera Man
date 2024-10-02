@@ -1,0 +1,8 @@
+Input file into cyberchef, with tool “Extract EXIF”
+
+flag(bandicam-super-ctf-camera-deluxe)
+
+EXIF (Exchangeable Image File Format) data is metadata embedded in image files (usually JPEG, TIFF, or RAW formats) that provides information about the image, such as the camera model, settings (e.g., shutter speed, aperture), date, time, and even GPS location. 
+This data is automatically generated when a photo is taken and can offer critical insights in digital forensics or photography analysis. 
+EXIF data can be extracted using tools like ExifTool, PhotoME, or even programming languages like Python with libraries such as PIL (Pillow). 
+Forensic investigators often analyze EXIF data to trace the origin of images or to verify their authenticity and creation details.

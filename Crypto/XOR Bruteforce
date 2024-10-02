@@ -1,0 +1,8 @@
+XOR brute force is a method used to decrypt data that has been encrypted using the XOR (exclusive OR) cipher, especially when the encryption key is unknown. 
+The XOR cipher is a simple symmetric encryption technique where each byte of the plaintext is combined with a byte of the key using the XOR operation to produce the ciphertext. 
+Due to its simplicity, the XOR cipher is vulnerable to brute force attacks, making XOR brute force a common technique in cryptanalysis and Capture The Flag (CTF) competitions.
+
+XOR Operation: The XOR (^) operation compares two bits and returns 1 if they are different and 0 if they are the same.
+
+Key = 42:
+flag{The_key_is_the_Answer_to_the_Ultimate_Question_of_Life,_the_Universe,_and_Everything}

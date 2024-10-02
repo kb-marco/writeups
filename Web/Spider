@@ -1,0 +1,13 @@
+The Network Log
+
+Each row of the Network Log represents a resource. By default the resources are listed chronologically. The top resource is usually the main HTML document. The bottom resource is whatever was requested last.
+
+Each column represents information about a resource. Figure 6 shows the default columns:
+
+Status. The HTTP response code.
+Type. The resource type.
+Initiator. What caused a resource to be requested. Clicking a link in the Initiator column takes you to the source code that caused the request.
+Time. How long the request took.
+Waterfall. A graphical representation of the different stages of the request. Hover over a Waterfall to see a breakdown.
+
+Source: https://developer.chrome.com/docs/devtools/network

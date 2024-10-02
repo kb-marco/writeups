@@ -1,0 +1,12 @@
+Plug in p, N, e, c, which are values used in RSA encryption, namely 
+
+c= Value of the cipher message
+p= Factor 1 (some prime number)
+
+N= Public Key value (Integer)
+
+And
+
+E= Public Key
+
+Flag{hopefully_now_you_understand_the_math}

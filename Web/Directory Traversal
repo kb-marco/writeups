@@ -1,0 +1,9 @@
+Into alt text of img is base64,ZmxhZ3t3aG8td291bGQtdHJhdmVsLXdpdGgtYS1jYXR9Cg==
+Decode with base64 decoder
+Flag is: flag{who-would-travel-with-a-cat}
+
+
+A Directory Traversal Attack is a security vulnerability that allows attackers to access files and directories stored outside the intended web root folder.
+By manipulating input fields such as URLs or form inputs, attackers use sequences like ../ (which means "go up one directory") to traverse the file system.
+This attack can expose sensitive files (e.g., configuration files, passwords, logs) that the web server has access to but should be restricted from public view. 
+Properly sanitizing and validating user inputs, and restricting file system access, are key ways to prevent this vulnerability.

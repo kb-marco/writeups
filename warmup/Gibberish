@@ -1,0 +1,14 @@
+Challenge: Gibberish
+
+echo "filename" | tr -cd '[:alnum:]._-'
+
+Sanitizes the string "filename" by removing any characters that are not alphanumeric (a-z, A-Z, 0-9), a dot (.), an underscore (_), or a hyphen (-). The result is a clean string containing only the allowed characters.
+
+
+Use Cases
+
+Sanitizing Filenames: This command is commonly used to remove unwanted or problematic characters from filenames, ensuring compatibility across different filesystems.
+
+Preparing Data for URLs: It can also be useful for cleaning strings that will be used in URLs by removing spaces and special characters.
+
+Security: Helps prevent injection attacks by ensuring that only expected characters are present in user inputs.
