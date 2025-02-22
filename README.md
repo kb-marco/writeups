@@ -1,7 +1,7 @@
 # Welcome to My CTF Write-ups Collection!
 
 Thank you for visiting my collection of Capture the Flag (CTF) write-ups. 
-This repository showcases my journey through various CTF challenges, where I tackle cybersecurity puzzles, reverse engineere programs, exploit vulnerabilities, and more. 
+This repository showcases my journey through various CTF challenges, where I tackle cybersecurity puzzles, reverse engineer programs, exploit vulnerabilities, and more. 
 My goal is to break down each challenge, explain my thought process, and share the tools and techniques that led to solving them.
 
 ## Why CTF?
